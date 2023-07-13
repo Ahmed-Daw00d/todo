@@ -14,7 +14,7 @@ html {
 }
 
 .sec-1 {
-  background: rgba(0, 0, 0, 1) url(/Images/background.png) center center/cover
+  background: rgba(0, 0, 0, 1) url(../Images/background.png) center center/cover
     no-repeat;
 
   /* background-blend-mode: darken; */
@@ -32,13 +32,17 @@ sub {
   color: black;
 }
 
+.sec-1 .container {
+  padding-bottom: 10px;
+}
+
 #input{
  text-align: center;
 margin-top: 20px;
 margin-bottom: 10px;
 }
 input[type=text] {
-  width: 500px;
+
 border-radius: 50Px;
 word-wrap: break-word;
 padding: 10px;
@@ -71,8 +75,9 @@ li{
 li:hover{
   background-color: dimgray;
   color: bisque;
-  border-radius: 0px 0px 25px 10px;
-  padding: 5px;
+  border-radius: 25px 0px 25px 0px;
+  padding: 10px;
+
 }
 
 
@@ -84,6 +89,8 @@ li:hover{
 }
 
 @media (min-width: 768px) {
+  input[type=text] {
+    width: 500px;}
 }
 @media (min-width: 992px) {
   nav {
