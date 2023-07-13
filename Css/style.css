@@ -83,14 +83,15 @@ li:hover{
 }
 
 @media (min-width: 768px) {
-}
+
+
+input[type=text] {
+  width: 500px;}}
 @media (min-width: 992px) {
 
   nav {
     width: 950px;
   }
-input[type=text] {
-  width: 500px;}
 }
 @media (min-width: 1200px) {
   nav {
