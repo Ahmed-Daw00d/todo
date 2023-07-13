@@ -1,0 +1,98 @@
+:root {
+  --orange: #fd7d00;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-feature-settings: "zero";
+}
+html {
+  font-size: 16px;
+  font-family: Segoe, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec-1 {
+  background: rgba(0, 0, 0, 1) url(/Images/background.png) center center/cover
+    no-repeat;
+
+  /* background-blend-mode: darken; */
+}
+
+nav {
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  color: var(--orange);
+  margin: 0 auto;
+}
+nav h1 {
+  text-align: center;
+}
+sub {
+  color: black;
+}
+
+#input{
+ text-align: center;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+input[type=text] {
+  width: 500px;
+border-radius: 50Px;
+word-wrap: break-word;
+padding: 10px;
+
+}
+
+button[type=button]{
+  background-color: var(--orange);
+  width: 50px;
+ border-radius: 25px 10px;
+}
+
+button[type=button]:active ,i:active{
+  
+  background-color: green;
+}
+
+ul{
+  margin: 50px;
+  text-decoration: none;
+}
+
+
+li{text-decoration: none;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: normal !important;
+}
+li:hover{
+  background-color: dimgray;
+  color: bisque;
+  border-radius: 0px 0px 25px 10px;
+  padding: 5px;
+}
+
+
+
+
+/* media quire */
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+  nav {
+    width: 950px;
+  }
+}
+@media (min-width: 1200px) {
+  nav {
+    width: 1144px;
+  }
+}
+@media (min-width: 1400px) {
+}
