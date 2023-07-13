@@ -58,11 +58,12 @@ button[type=button]:active ,i:active{
 
 ul{
   margin: 50px;
-  text-decoration: none;
+  /* list-style:square; */
 }
 
 
-li{text-decoration: none;
+
+li{
   overflow-wrap: break-word;
   word-wrap: break-word;
   white-space: normal !important;
