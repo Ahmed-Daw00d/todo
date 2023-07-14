@@ -15,8 +15,7 @@ html {
 }
 
 .sec-1 {
-  background: rgba(0, 0, 0, 1) url(../Images/background2.jpg) center center/cover
-    no-repeat;
+  background: rgba(0, 0, 0, 1) url(../Images/background2.webp) center center/cover no-repeat;
 
   padding-top: 15px;
   /* background-blend-mode: darken; */
@@ -59,7 +58,7 @@ button[type="button"] {
 
 button[type="button"]:active,
 i:active {
-  background-color: green;
+  background-color: green !important;
 }
 
 ul {
