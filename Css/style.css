@@ -82,6 +82,10 @@ li:hover {
   padding: 10px;
 }
 
+#print{
+text-align: center;
+} 
+
 /* media quire */
 
 @media (min-width: 576px) {
