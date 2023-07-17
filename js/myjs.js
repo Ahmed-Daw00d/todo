@@ -14,3 +14,9 @@ function add() {
     document.querySelector("button").style.backgroundColor = "red";
   }
 }
+
+
+function print() {
+window.print();
+
+} 
