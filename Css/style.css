@@ -44,8 +44,11 @@ sub {
 }
 input[type="text"] {
   border-radius: 50px;
-  
+  border-color: var(--orange);
+  background-color: black;
   padding: 10px;
+  opacity: 0.5;
+  color: #fff;
   
  
 }
