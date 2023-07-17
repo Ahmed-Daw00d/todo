@@ -18,5 +18,4 @@ function add() {
 
 function print() {
 window.print();
-
 } 
