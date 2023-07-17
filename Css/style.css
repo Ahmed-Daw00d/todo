@@ -110,7 +110,7 @@ margin:auto auto;
 @media (min-width: 1400px) {
 }
 
-//print
+/* print */
 
 @media print {
 * :not(ul) {
