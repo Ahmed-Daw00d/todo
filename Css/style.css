@@ -82,9 +82,16 @@ li:hover {
   padding: 10px;
 }
 
+div.print{
+  display: flex;
+  justify-content: center;
+}
 #print{
-text-align: center;
-margin:auto auto;
+  background-color: var(--orange);
+  width: 200px;
+  border-radius: 10px 25px;
+    
+     
 } 
 
 /* media quire */
@@ -113,8 +120,12 @@ margin:auto auto;
 /* print */
 
 @media print {
-* :not(ul) {
-display: none;
+div:not(div#ul) {
+display:none;
 } 
+sub,li{
+  color: black;
+  font-family:'Times New Roman', Times, serif;
+}
 } 
 

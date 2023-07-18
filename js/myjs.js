@@ -16,6 +16,6 @@ function add() {
 }
 
 
-function print() {
-window.print();
+function Print() {
+  window.print();
 } 
