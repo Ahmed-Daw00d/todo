@@ -15,7 +15,8 @@ html {
 }
 
 .sec-1 {
-  background: rgba(0, 0, 0, 1) url(../Images/background2.webp) center center/cover no-repeat;
+  background: rgba(0, 0, 0, 1) url(../Images/background2.webp) center
+    center/cover no-repeat;
 
   padding-top: 15px;
   /* background-blend-mode: darken; */
@@ -49,14 +50,14 @@ input[type="text"] {
   padding: 10px;
   opacity: 0.5;
   color: #fff;
-  
- 
+  cursor :crosshair;
 }
 
 button[type="button"] {
   background-color: var(--orange);
   width: 50px;
   border-radius: 25px 10px;
+
 }
 
 button[type="button"]:active,
@@ -74,7 +75,9 @@ li {
   word-wrap: break-word;
   white-space: normal !important;
   color: #fff;
-  list-style-type:decimal ;
+  list-style-type: decimal;
+  position: relative;
+  max-width: 800px;
 }
 li:hover {
   background-color: dimgray;
@@ -83,17 +86,31 @@ li:hover {
   padding: 10px;
 }
 
-div.print{
+.delete {
+  border: none;
+  outline: none;
+  background: none;
+  position: absolute;
+  right: 5px;
+}
+.delete  i:active{
+ background: #fd7d00 !important;
+ padding-top: 7px;
+ width: 30px;
+ height: 30px;
+ border-radius: 50%;
+}
+
+div.print {
   display: flex;
   justify-content: center;
 }
-#print{
+#print {
   background-color: var(--orange);
   width: 200px;
   border-radius: 10px 25px;
-    
-     
-} 
+
+}
 
 /* media quire */
 
@@ -109,6 +126,10 @@ div.print{
   nav {
     width: 950px;
   }
+  li{
+    margin-left: 30px; 
+   
+  };
 }
 @media (min-width: 1200px) {
   nav {
@@ -121,12 +142,13 @@ div.print{
 /* print */
 
 @media print {
-div:not(div#ul) {
-display:none;
-} 
-sub,li{
-  color: black;
-  font-family:'Times New Roman', Times, serif;
-}
-} 
+  div:not(div#ul),#ul button {
+    display: none;
+  }
 
+  sub,
+  li {
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+  }
+}
