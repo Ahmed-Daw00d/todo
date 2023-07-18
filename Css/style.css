@@ -136,9 +136,13 @@ textarea{
   opacity: 0.5;
   color: black;
   border-radius: 10px 25px;
-  
+    width: 150px;
   padding:5px;
+<<<<<<< HEAD
   width: 180px;
+=======
+  
+>>>>>>> 4a5139256ca510f8c831b16b24446d2462a381a2
   min-height: 50px;
 }
 
@@ -151,10 +155,17 @@ textarea{
   input[type="text"] {
     width: 500px;
   }
+<<<<<<< HEAD
   textarea{
 width: 500px;
   }
 }
+=======
+
+textarea{
+  width: 500px;} 
+ }
+>>>>>>> 4a5139256ca510f8c831b16b24446d2462a381a2
 @media (min-width: 992px) {
   nav {
     width: 950px;
