@@ -77,6 +77,9 @@ li {
   list-style-type: decimal;
   position: relative;
   max-width: 800px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px var(--orange);
   
 }
 
@@ -92,21 +95,21 @@ li:hover {
   outline: none;
   background: none;
   position: absolute;
-  right: 5px;
+  right: -45px;
 }
 .complete {
   border: none;
   outline: none;
   background: none;
   position: absolute;
-  right: 25px;
+  right: -20px;
 }
 .Edit {
   border: none;
   outline: none;
   background: none;
   position: absolute;
-  right: 50px;
+  right: 10px;
 }
 .delete i:active,
 .complete i:active,.Edit i:active  {
@@ -135,7 +138,7 @@ textarea{
   border-radius: 10px 25px;
   
   padding:5px;
-  width: 500px;
+  width: 180px;
   min-height: 50px;
 }
 
@@ -148,6 +151,9 @@ textarea{
   input[type="text"] {
     width: 500px;
   }
+  textarea{
+width: 500px;
+  }
 }
 @media (min-width: 992px) {
   nav {
@@ -156,6 +162,7 @@ textarea{
   li {
     margin-left: 30px;
   }
+  
 }
 @media (min-width: 1200px) {
   nav {
