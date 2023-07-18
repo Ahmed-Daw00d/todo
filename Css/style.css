@@ -50,14 +50,13 @@ input[type="text"] {
   padding: 10px;
   opacity: 0.5;
   color: #fff;
-  cursor :crosshair;
+  cursor: crosshair;
 }
 
 button[type="button"] {
   background-color: var(--orange);
   width: 50px;
   border-radius: 25px 10px;
-
 }
 
 button[type="button"]:active,
@@ -93,14 +92,25 @@ li:hover {
   position: absolute;
   right: 5px;
 }
-.delete  i:active{
- background: #fd7d00 !important;
- padding-top: 7px;
- width: 30px;
- height: 30px;
- border-radius: 50%;
+.complete {
+  border: none;
+  outline: none;
+  background: none;
+  position: absolute;
+  right: 25px;
 }
-
+.delete i:active,
+.complete i:active {
+  background: #fd7d00 !important;
+  padding-top: 7px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.liComplete {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
 div.print {
   display: flex;
   justify-content: center;
@@ -109,7 +119,6 @@ div.print {
   background-color: var(--orange);
   width: 200px;
   border-radius: 10px 25px;
-
 }
 
 /* media quire */
@@ -126,10 +135,9 @@ div.print {
   nav {
     width: 950px;
   }
-  li{
-    margin-left: 30px; 
-   
-  };
+  li {
+    margin-left: 30px;
+  }
 }
 @media (min-width: 1200px) {
   nav {
@@ -142,7 +150,8 @@ div.print {
 /* print */
 
 @media print {
-  div:not(div#ul),#ul button {
+  div:not(div#ul),
+  #ul button {
     display: none;
   }
 
