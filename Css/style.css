@@ -133,7 +133,7 @@ textarea{
   opacity: 0.5;
   color: black;
   border-radius: 10px 25px;
-  
+    width: 150px;
   padding:5px;
   
   min-height: 50px;
