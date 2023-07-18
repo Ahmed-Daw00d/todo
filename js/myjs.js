@@ -37,6 +37,8 @@ function add() {
     btn.addEventListener("click", () => {
       listUl.removeChild(el);
     });
+
+    //edit
   } else {
     alert("شكلك جاي تهزر🤔🤨اكتب حاجه ياعم😁");
     document.querySelector("button").style.backgroundColor = "red";
