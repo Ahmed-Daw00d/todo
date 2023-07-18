@@ -74,6 +74,7 @@ li {
   word-wrap: break-word;
   white-space: normal !important;
   color: #fff;
+  list-style-type:decimal ;
 }
 li:hover {
   background-color: dimgray;
