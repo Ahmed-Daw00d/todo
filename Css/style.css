@@ -77,7 +77,9 @@ li {
   list-style-type: decimal;
   position: relative;
   max-width: 800px;
+  
 }
+
 li:hover {
   background-color: dimgray;
   color: bisque;
@@ -99,8 +101,15 @@ li:hover {
   position: absolute;
   right: 25px;
 }
+.Edit {
+  border: none;
+  outline: none;
+  background: none;
+  position: absolute;
+  right: 50px;
+}
 .delete i:active,
-.complete i:active {
+.complete i:active,.Edit i:active  {
   background: #fd7d00 !important;
   padding-top: 7px;
   width: 30px;
@@ -119,6 +128,15 @@ div.print {
   background-color: var(--orange);
   width: 200px;
   border-radius: 10px 25px;
+}
+textarea{
+  opacity: 0.5;
+  color: black;
+  border-radius: 10px 25px;
+  
+  padding:5px;
+  width: 500px;
+  min-height: 50px;
 }
 
 /* media quire */
